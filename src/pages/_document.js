@@ -14,14 +14,17 @@ class MyDocument extends Document {
 						href='https://fonts.gstatic.com'
 						crossOrigin='anonymous'
 					/>
-					{/*  <meta name="description" content={siteConfig.description} />
-          <link rel="apple-touch-icon" href="/logo192.png" />
-          <meta property="og:title" content={ogConfig.title} />
-          <meta property="og:site_name" content={ogConfig.site_name} />
-          <meta property="og:url" content={ogConfig.url[CUSTOM_NODE_ENV]} />
-          <meta property="og:description" content={ogConfig.description} />
-          <meta property="og:type" content="website" />
-          <meta property="og:image" content={`${ogConfig.url[CUSTOM_NODE_ENV]}/${ogConfig.image}`} /> */}
+					<meta name='description' content='Portfolio 2023' />
+					<link rel='apple-touch-icon' href='/logo192.png' />
+					<meta property='og:title' content='Paveglio Bruno' />
+					<meta property='og:site_name' content='Paveglio Bruno' />
+					{/* <meta property='og:url' content={ogConfig.url[CUSTOM_NODE_ENV]} /> */}
+					<meta property='og:description' content='Portfolio 2023' />
+					<meta property='og:type' content='website' />
+					{/* <meta
+						property='og:image'
+						content={`${ogConfig.url[CUSTOM_NODE_ENV]}/${ogConfig.image}`}
+					/> */}
 				</Head>
 				<body>
 					<Main />
