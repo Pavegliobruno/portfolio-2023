@@ -11,7 +11,7 @@ const SliderComponent = ({children}) => {
 		slidesToScroll: 1,
 		autoplay: true,
 		autoplaySpeed: 3000,
-		arrows: false,
+		arrows: true,
 		responsive: [
 			{
 				breakpoint: 1024,
@@ -23,6 +23,7 @@ const SliderComponent = ({children}) => {
 				breakpoint: 600,
 				settings: {
 					slidesToShow: 1,
+					arrows: false,
 				},
 			},
 		],
