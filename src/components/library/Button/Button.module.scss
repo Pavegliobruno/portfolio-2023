@@ -1,0 +1,30 @@
+@import 'src/styles/variables.scss';
+
+.container {
+	padding: 0.75rem 2rem;
+	border-radius: 0.25rem;
+	background: none;
+	border: 1px solid $black;
+	font-size: 1rem;
+	transition: all 0.3s;
+
+	&:hover {
+		cursor: pointer;
+		background-color: $black;
+		color: $white;
+	}
+
+	&:active {
+		transform: scale(0.95);
+	}
+}
+
+.alternative {
+	border-color: $gray-light;
+	color: $gray-light;
+
+	&:hover {
+		background-color: $gray-light;
+		color: $black;
+	}
+}
