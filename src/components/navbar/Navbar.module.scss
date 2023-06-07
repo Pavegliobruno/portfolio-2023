@@ -10,36 +10,16 @@
 	color: $gray;
 	backdrop-filter: blur(0.2rem);
 	z-index: 10;
+
+	@media (max-width: $hd-desktop-breakpoint) {
+		padding: 0.75rem;
+	}
 }
 
 .link {
 	padding: 0.5rem;
-	&:hover {
-		cursor: pointer;
-	}
-}
-
-.language-button {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	margin-left: auto;
-	padding: 0.3rem;
-	border-radius: 0.25rem;
-	background: none;
-	border: 1px solid $gray;
-	color: $gray;
-	font-size: 0.9rem;
-	transition: all 0.3s;
-	min-width: 2rem;
 
 	&:hover {
 		cursor: pointer;
-		background-color: $gray-light;
-		color: $black;
-	}
-
-	&:active {
-		transform: scale(0.95);
 	}
 }

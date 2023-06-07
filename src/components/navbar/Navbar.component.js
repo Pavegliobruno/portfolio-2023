@@ -1,11 +1,14 @@
 import React, {useState} from 'react';
+import {useMediaQuery} from 'react-responsive';
 import {useTranslation} from 'react-i18next';
-import {Link as ScrollLink} from 'react-scroll';
+import NavbarDesktop from './desktop/NavbarDesktop.component';
+import NavbarMobile from './mobile/NavbarMobile.component';
 import styles from './Navbar.module.scss';
 
 const Navbar = ({setStarsBackgroundEnabled}) => {
 	const [t, i18n] = useTranslation('global');
 	const [language, setLanguage] = useState(i18n.language);
+	const isMobile = useMediaQuery({maxWidth: 1024});
 
 	const handleChangeLanguage = (lang) => {
 		setStarsBackgroundEnabled(false);
@@ -17,10 +20,22 @@ const Navbar = ({setStarsBackgroundEnabled}) => {
 	};
 
 	const links = [
-		{text: t('navbar.about'), to: 'about'},
-		{text: t('navbar.projects'), to: 'projects'},
-		{text: t('navbar.testimonial'), to: 'testimonials'},
-		{text: t('navbar.contact'), to: 'contact'},
+		{
+			text: t('navbar.about'),
+			to: 'about',
+			scroll: {mobile: 0, desktop: -100},
+		},
+		{
+			text: t('navbar.projects'),
+			to: 'projects',
+			scroll: {mobile: 0, desktop: -20},
+		},
+		{
+			text: t('navbar.testimonial'),
+			to: 'testimonials',
+			scroll: {mobile: 0, desktop: -20},
+		},
+		{text: t('navbar.contact'), to: 'contact', scroll: {mobile: 0, desktop: 0}},
 	];
 
 	return (
@@ -35,35 +50,20 @@ const Navbar = ({setStarsBackgroundEnabled}) => {
 				{t('navbar.resume')}
 			</a>
 
-			{links.map((link, index) => (
-				<ScrollLink
-					className={styles['link']}
-					activeClass='active'
-					to={link.to}
-					spy={true}
-					smooth={true}
-					duration={500}
-					offset={-80}
-					key={index}
-				>
-					{link.text}
-				</ScrollLink>
-			))}
-
-			{language === 'es' ? (
-				<button
-					className={styles['language-button']}
-					onClick={() => handleChangeLanguage('en')}
-				>
-					En
-				</button>
+			{isMobile ? (
+				<NavbarMobile
+					links={links}
+					isMobile={isMobile}
+					language={language}
+					handleChangeLanguage={handleChangeLanguage}
+				/>
 			) : (
-				<button
-					className={styles['language-button']}
-					onClick={() => handleChangeLanguage('es')}
-				>
-					Es
-				</button>
+				<NavbarDesktop
+					links={links}
+					isMobile={isMobile}
+					language={language}
+					handleChangeLanguage={handleChangeLanguage}
+				/>
 			)}
 		</div>
 	);
