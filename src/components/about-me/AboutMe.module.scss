@@ -10,9 +10,39 @@
 .inner-container {
 	max-width: $lg-desktop-breakpoint;
 	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 2rem;
+
+	@media (max-width: $lg-desktop-breakpoint) {
+		flex-direction: column;
+		gap: 3rem;
+	}
+}
+
+.image-container {
+	background-color: $gray-extra-light;
+	border-radius: 100%;
+	overflow: hidden;
+	width: 16.5rem;
+	min-width: 16.5rem;
+	aspect-ratio: 1;
+
+	img {
+		width: 16.5rem;
+		min-width: 16.5rem;
+		aspect-ratio: 1;
+		object-fit: contain;
+		margin-bottom: -1rem;
+	}
+}
+
+.data-container {
+	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	max-width: calc($lg-desktop-breakpoint - 20rem);
 }
 
 .title {
