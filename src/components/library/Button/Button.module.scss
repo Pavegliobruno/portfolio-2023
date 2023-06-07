@@ -1,6 +1,9 @@
 @import 'src/styles/variables.scss';
 
 .container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	padding: 0.75rem 2rem;
 	border-radius: 0.25rem;
 	background: none;
@@ -27,4 +30,9 @@
 		background-color: $gray-light;
 		color: $black;
 	}
+}
+
+.small {
+	padding: 0.3rem;
+	font-size: 0.9rem;
 }
