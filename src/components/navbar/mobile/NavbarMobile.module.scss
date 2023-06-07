@@ -1,0 +1,48 @@
+@import 'src/styles/variables.scss';
+
+.alt-button {
+	margin-left: auto;
+	border: 1px solid $gray !important;
+	color: $gray !important;
+	width: 2rem;
+	aspect-ratio: 1;
+
+	&:hover {
+		background-color: $gray-light !important;
+		color: $black !important;
+	}
+}
+
+.mobile-menu {
+	display: flex;
+	position: fixed;
+	flex-direction: column;
+	background-color: $black;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	padding: 0.8rem;
+	touch-action: none;
+}
+
+.links-cont {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	gap: 0.5rem;
+}
+
+.link {
+	padding: 0.5rem;
+
+	&:hover {
+		cursor: pointer;
+	}
+}
+
+.lenguage-button {
+	margin: 0;
+}
