@@ -1,5 +1,4 @@
 /* eslint-disable no-use-before-define */
-/* eslint-disable prettier/prettier */
 /* eslint-disable no-underscore-dangle */
 /**
  * @class Particle

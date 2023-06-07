@@ -29,7 +29,7 @@ class StarfieldAnimation extends PureComponent {
 		style: {},
 	};
 
-	componentWillMount() {
+	UNSAFE_componentWillMount() {
 		this._reset(this.props);
 	}
 
@@ -41,7 +41,7 @@ class StarfieldAnimation extends PureComponent {
 		raf.cancel(this._tickRaf);
 	}
 
-	componentWillReceiveProps(props) {
+	UNSAFE_componentWillReceiveProps(props) {
 		this._reset(props);
 	}
 
