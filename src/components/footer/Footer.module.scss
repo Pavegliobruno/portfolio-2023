@@ -1,0 +1,16 @@
+@import 'src/styles/variables.scss';
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: $black;
+	color: $gray-light;
+	font-size: 0.8rem;
+	padding: 0.5rem;
+}
+
+.register {
+	display: flex;
+	align-items: center;
+}
