@@ -5,6 +5,10 @@
 	&:hover {
 		cursor: pointer;
 	}
+
+	@media (max-width: $hd-desktop-breakpoint) {
+		display: none;
+	}
 }
 
 .alt-button {
