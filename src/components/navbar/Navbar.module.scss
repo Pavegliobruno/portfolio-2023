@@ -1,0 +1,45 @@
+@import 'src/styles/variables.scss';
+
+.container {
+	display: flex;
+	position: fixed;
+	align-items: center;
+	width: 100%;
+	padding: 1.5rem;
+	gap: 1rem;
+	color: $gray;
+	backdrop-filter: blur(0.2rem);
+	z-index: 10;
+}
+
+.link {
+	padding: 0.5rem;
+	&:hover {
+		cursor: pointer;
+	}
+}
+
+.language-button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: auto;
+	padding: 0.3rem;
+	border-radius: 0.25rem;
+	background: none;
+	border: 1px solid $gray;
+	color: $gray;
+	font-size: 0.9rem;
+	transition: all 0.3s;
+	min-width: 2rem;
+
+	&:hover {
+		cursor: pointer;
+		background-color: $gray-light;
+		color: $black;
+	}
+
+	&:active {
+		transform: scale(0.95);
+	}
+}
