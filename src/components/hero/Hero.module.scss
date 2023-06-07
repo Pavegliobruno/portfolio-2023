@@ -46,6 +46,7 @@
 	height: 100%;
 	position: absolute;
 	animation: fadeInAnimation ease 3s;
+	z-index: -1;
 }
 
 @keyframes fadeInAnimation {
