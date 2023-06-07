@@ -1,0 +1,19 @@
+@import 'src/styles/variables.scss';
+
+.link {
+	padding: 0.5rem;
+	&:hover {
+		cursor: pointer;
+	}
+}
+
+.alt-button {
+	margin-left: auto;
+	border: 1px solid $gray !important;
+	color: $gray !important;
+	min-width: 2rem;
+	&:hover {
+		background-color: $gray-light !important;
+		color: $black !important;
+	}
+}
