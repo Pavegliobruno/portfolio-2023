@@ -1,0 +1,39 @@
+{
+	"navbar": {
+		"resume": "Curriculum",
+		"about": "Sobre mi",
+		"projects": "Proyectos",
+		"testimonial": "Testimonios",
+		"contact": "Contacto"
+	},
+	"hero": {
+		"role": "<Programador Full Stack/>",
+		"more": "Mas sobre mi"
+	},
+	"about": {
+		"title": "Sobre mí",
+		"first": "Soy una persona proactiva, siempre con curiosidad de aprender nuevas tecnologías y sobre otros campos relacionados. Me desempeño muy bien en equipos de trabajo y busco seguir creciendo, formándome y perfeccionándome en un entorno amigable, desafiante y productivo.",
+		"second": "Me considero aventurero, curioso, responsable y adaptable. Me gustan la fotografía, viajar, las plantas, la astronomía y el buceo. He participado de forma voluntaria en organizaciones caritativas que ayudan a personas en situación de vulnerabilidad y también en grupos de rescate de animales."
+	},
+	"projects": {
+		"title": "Mis proyectos",
+		"videogames": "Aplicación para buscar, obtener información y crear videojuegos. Creada usando React.js, Redux, Express, Sequelize y PostgreSQL.",
+		"store": "Tienda digital de productos electrónicos e informaticos. Creada usando React.js, Redux, Node Js, Express Js, Mongo y Mongoosee.",
+		"portfolio": "Cartera de proyectos que además contiene información sobre mis aptitudes laborales y mis datos de contacto. ",
+		"dropWhitelabel": "Desarrollo de solución white-label para administrar drops de projectos NFTs de arte generativo.",
+		"dropLocalWeather": "Projecto de NFTs de arte generativo utilizando white-label.",
+		"dropBreadaverse": "Projecto de NFTs de arte generativo utilizando white-label."
+	},
+	"testimonials": {
+		"title": "Testimonios",
+		"facundo": "Bruno es un profesional responsable y comprometido. Se destaca por su capacidad de análisis y su habilidad de trabajo en equipo. Siempre se mostró dispuesto a resolver los desafíos que se le presentaron con un abordaje innovador, superándose día a día.",
+		"camila": "Bruno es un excelente compañero y profesional. Además, siempre está de buen humor, fundamental para la integración del grupo. Siempre está dispuesto a ayudar y cuenta con un conocimiento técnico muy alto. He aprendido mucho trabajando con él. Sin duda, aporta mucho valor en cualquier equipo de trabajo.",
+		"martu": "Tuve la oportunidad de corregir y supervisar el proyecto final realizado en Henry. No solo demostró un gran nivel de profesionalismo, trabajando en equipo y adaptandose rapidamente, sino que tambien, siempre estuvo abierto y dispuesto a escuchar y aprender de sus compañeros.",
+		"alonso": "Bruno es un excelente compañero de equipo, proactivo, de rápido aprendizaje y muy responsable. En el proyecto en el que trabajamos juntos, se desempeñó con una eficiencia increíble.",
+		"juanma": "Tuve a Bruno de PM en mi paso por el bootcamp de Henry y aprendí muchísimo de él. Desde el principio, propuso distintas actividades para fomentar la integración, y estuvo atento a resolver todas las dudas que fueron surgiendo. Sin dudas es una excelente persona, un gran compañero con una gran predisposición para ayudar y con grandes capacidades y conocimientos técnicos.",
+		"pedro": "Trabajé con Bruno  y puedo asegurar que posee increíbles habilidades y skills muy sólidas. Es excelente compañero y además sabe liderar con respeto. Ha demostrado estar en todo momento, para garantizar la entrega ideal de nuestro producto en cada Release. Es súper atento a los detalles , su código es limpio y fácilmente refactoreable."
+	},
+	"contact": {
+		"contact": "Podés encontrarme aquí:"
+	}
+}
