@@ -3,7 +3,7 @@
 .container {
 	display: flex;
 	justify-content: center;
-	background-color: $gray-light;
+	background-color: $gray-extra-light;
 	padding: 10rem 1rem;
 }
 
@@ -21,7 +21,7 @@
 }
 
 .image-container {
-	background-color: $gray-extra-light;
+	background-color: $gray-light;
 	border-radius: 100%;
 	overflow: hidden;
 	width: 16.5rem;
