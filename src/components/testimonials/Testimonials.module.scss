@@ -1,0 +1,30 @@
+@import 'src/styles/variables.scss';
+
+.container {
+	display: flex;
+	justify-content: center;
+	background-color: $smoke;
+	padding: 10rem 1rem;
+}
+
+.inner-container {
+	max-width: $hd-desktop-breakpoint;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.title {
+	font-size: 3.5rem;
+	margin-bottom: 3rem;
+}
+
+.testimonials-container {
+	max-width: $hd-desktop-breakpoint;
+
+	@media (max-width: $hd-desktop-breakpoint) {
+		max-width: 100vw;
+		padding: 0 1rem;
+	}
+}
