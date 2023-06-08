@@ -1,5 +1,29 @@
 export const projects = [
 	{
+		name: 'Marketplace - Space Junk',
+		img: [
+			'https://res.cloudinary.com/dlexbrcrv/image/upload/v1686210286/Proyects/Portfolio/Screen_Shot_2023-06-08_a_la_s_09.41.12_ck1z8z.png',
+			'https://res.cloudinary.com/dlexbrcrv/image/upload/v1686210287/Proyects/Portfolio/Screen_Shot_2023-06-08_a_la_s_09.42.13_eqiw9z.png',
+			'https://res.cloudinary.com/dlexbrcrv/image/upload/v1686210288/Proyects/Portfolio/Screen_Shot_2023-06-08_a_la_s_09.43.39_dk1alk.png',
+			'https://res.cloudinary.com/dlexbrcrv/image/upload/v1686210286/Proyects/Portfolio/Screen_Shot_2023-06-08_a_la_s_09.44.33_kcngve.png',
+		],
+		description: 'spaceJunk',
+		github: '',
+		web: 'https://app.spacejunkies.xyz/',
+	},
+	{
+		name: 'Marketplace - The Gimmicks',
+		img: [
+			'https://res.cloudinary.com/dlexbrcrv/image/upload/v1686209774/Proyects/Portfolio/Screen_Shot_2023-06-08_a_la_s_09.33.49_ddzbvw.png',
+			'https://res.cloudinary.com/dlexbrcrv/image/upload/v1686209773/Proyects/Portfolio/Screen_Shot_2023-06-08_a_la_s_09.34.39_axzmlt.png',
+			'https://res.cloudinary.com/dlexbrcrv/image/upload/v1686209775/Proyects/Portfolio/Screen_Shot_2023-06-08_a_la_s_09.35.19_tnqstq.png',
+			'https://res.cloudinary.com/dlexbrcrv/image/upload/v1686210030/Proyects/Portfolio/Screen_Shot_2023-06-08_a_la_s_09.40.17_kht30q.png',
+		],
+		description: 'theGimmicks',
+		github: '',
+		web: 'https://app.therealgimmicks.com/',
+	},
+	{
 		name: 'NFTs Drop - Whitelabel',
 		img: [
 			'https://res.cloudinary.com/dlexbrcrv/image/upload/v1662455118/Proyects/Portfolio/drops_1_h9yzxv.png',
