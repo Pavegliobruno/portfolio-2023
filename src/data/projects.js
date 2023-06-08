@@ -83,13 +83,24 @@ export const projects = [
 		web: '',
 	},
 	{
-		name: 'My portfolio.',
+		name: 'My current portfolio.',
+		img: [
+			'https://res.cloudinary.com/dlexbrcrv/image/upload/v1686229637/Proyects/Portfolio/Screen_Shot_2023-06-08_a_la_s_15.05.36_flgrml.png',
+			'https://res.cloudinary.com/dlexbrcrv/image/upload/v1686229637/Proyects/Portfolio/Screen_Shot_2023-06-08_a_la_s_15.05.48_hstbkp.png',
+			'https://res.cloudinary.com/dlexbrcrv/image/upload/v1686229637/Proyects/Portfolio/Screen_Shot_2023-06-08_a_la_s_15.06.00_nzdz8n.png',
+		],
+		description: 'portfolio',
+		github: 'https://github.com/Pavegliobruno/portfolio-2023',
+		web: 'https://www.brunopaveglio.com/',
+	},
+	{
+		name: 'My previous portfolio.',
 		img: [
 			'https://res.cloudinary.com/dlexbrcrv/image/upload/v1624052305/Proyects/Portfolio/Screenshot_1_njfbuy.png',
 			'https://res.cloudinary.com/dlexbrcrv/image/upload/v1623695932/Proyects/Portfolio/P-1_sudmtl.png',
 		],
 		description: 'portfolio',
 		github: 'https://github.com/Pavegliobruno/portfolio_paveglio',
-		web: '',
+		web: 'https://paveglio.vercel.app/',
 	},
 ];
