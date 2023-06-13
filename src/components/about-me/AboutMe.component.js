@@ -1,10 +1,10 @@
-import Image from 'next/image';
 import {useTranslation} from 'react-i18next';
 import Button from '../library/Button/Button.component';
+// import Expandible from '../expandible/Expandible.module';
 import styles from './AboutMe.module.scss';
 
 const AboutMe = () => {
-	const [t] = useTranslation('global');
+	const [t, i18n] = useTranslation('global');
 
 	return (
 		<div className={styles['container']}>
@@ -17,9 +17,19 @@ const AboutMe = () => {
 					<div className={styles['description']}>
 						<p>{t('about.first')}</p>
 						<p>{t('about.second')}</p>
+						{/* <Expandible
+							header={<h4 className={styles['subtitle']}>More about me</h4>}
+							body={
+								<>
+									<p>{t('about.first')}</p>
+									<p>{t('about.second')}</p>
+								</>
+							}
+							initialHeight={100}
+						/> */}
 					</div>
 					<a
-						href='/Paveglio-SoftwareDeveloper-2023.pdf'
+						href={`/Paveglio-SoftwareDeveloper-2023-${i18n.language}.pdf`}
 						target='_blank'
 						rel='noreferrer noopener'
 						aria-label='Resume/CV'

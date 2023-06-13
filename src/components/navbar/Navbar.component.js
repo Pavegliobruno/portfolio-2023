@@ -42,7 +42,7 @@ const Navbar = ({setStarsBackgroundEnabled}) => {
 		<div className={styles['container']}>
 			<a
 				className={styles['link']}
-				href='/Paveglio-SoftwareDeveloper-2023.pdf'
+				href={`/Paveglio-SoftwareDeveloper-2023-${i18n.language}.pdf`}
 				target='_blank'
 				rel='noreferrer noopener'
 				aria-label='Resume/CV'
