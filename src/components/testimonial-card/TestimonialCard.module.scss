@@ -54,3 +54,11 @@
 		right: 1rem;
 	}
 }
+
+.see-more {
+	font-weight: 500;
+
+	&:hover {
+		text-decoration: underline;
+	}
+}
