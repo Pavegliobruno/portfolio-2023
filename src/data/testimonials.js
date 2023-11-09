@@ -18,6 +18,12 @@ export const testimonials = [
 		testimonial: 'alonso',
 	},
 	{
+		img: 'https://res.cloudinary.com/dlexbrcrv/image/upload/v1699542446/Proyects/Portfolio/1590358574228_fxbpfl.jpg',
+		name: 'Nicolás J Engler',
+		title: 'Digital Product Manager',
+		testimonial: 'niqui',
+	},
+	{
 		img: 'https://res.cloudinary.com/dlexbrcrv/image/upload/v1623756978/Proyects/Portfolio/1614117745178_xicwm7.jpg',
 		name: 'Juan Martin Cereceda',
 		title: 'Full Stack Developer ',
@@ -34,5 +40,11 @@ export const testimonials = [
 		name: 'Martina Scomazzon',
 		title: 'Computer engineer',
 		testimonial: 'martu',
+	},
+	{
+		img: 'https://res.cloudinary.com/dlexbrcrv/image/upload/v1699542446/Proyects/Portfolio/1590358574228_fxbpfl.jpg',
+		name: 'Nicolás J Engler',
+		title: 'Digital Product Manager',
+		testimonial: 'niqui',
 	},
 ];
